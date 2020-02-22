@@ -1,0 +1,60 @@
+/* //hero section */
+.hero-layout{
+    height:600px;
+
+}
+.logo{
+
+    /* border-radius: 50%; */
+}
+.menu-bar{
+    background-color: transparent;
+    color:white;
+    margin-top: 50px;
+   
+}
+.search-bar{
+    /* margin-left: 500px; */
+    /* margin-top: 10px; */
+    margin-top: 50px;
+    width: 300px;
+    
+}
+.webpage-name{
+    width:400px;
+}
+.hosting img{
+    height:250px;
+    width:300px;
+    /* margin-top: 10px; */
+}
+
+/* //product */
+
+.product img{
+    height:200px;
+    width:300px;
+    /* margin-left: 5px; */
+}
+.product h4,p{
+    /* width: 700px; */
+    width:300px;
+}
+.our-product{
+    width: 300px;
+    margin-left: 525px;
+}
+.gallery img{
+    height: 150px;
+    width: 150px ;
+}
+.contact input{
+    width:200px;
+}
+.contact textarea{
+    width: 440px;;
+}
+.contact button{
+   width: 150px;
+   margin-left: 140px;
+}
