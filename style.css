@@ -1,17 +1,37 @@
 /* //hero section */
 .hero-layout{
-    height:600px;
+    height:630px;
 
 }
 .logo{
 
     /* border-radius: 50%; */
 }
+.menu{
+    margin-top: 50px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+button:hover{
+    color:red;
+    background-color:yellow;
+    
+}
 .menu-bar{
     background-color: transparent;
     color:white;
     margin-top: 50px;
    
+}
+.button{
+    outline:0;
+    border:none;
 }
 .search-bar{
     /* margin-left: 500px; */
@@ -21,7 +41,7 @@
     
 }
 .webpage-name{
-    width:400px;
+    width:550px;
 }
 .hosting img{
     height:250px;
@@ -44,9 +64,14 @@
     width: 300px;
     margin-left: 525px;
 }
+.team img{
+    border-radius: 50%;
+    
+}
 .gallery img{
     height: 150px;
     width: 150px ;
+   
 }
 .contact input{
     width:200px;
@@ -57,4 +82,96 @@
 .contact button{
    width: 150px;
    margin-left: 140px;
+}
+.team h4,p{
+    color: white;
+}
+
+/* //media query */
+
+@media only screen and (max-width: 640px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: block;
+       
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .gallery-button{
+        margin-left: 20px;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .logo{
+        margin-left: 203px;
+        margin-bottom: 20px;
+    }
+    .search{
+        width: 440px;
+       
+        
+    }
+    .hero-desc{
+        margin-left: 50px;
+    }
+
+    .team .fa-icon{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    /* //product */
+
+    .our-product{
+        width: 300px;
+        margin-left: 100px;
+       
+    }
+    .smproduct div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .gallery img{
+        height:200px;
+        width:300px;
+    }
+    .address div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin-left: 20px;
+        
+        
+    }
+    .damak-branch {
+       margin-left: 91px;
+    }
+    .phone{
+        margin-left: 91px;
+    }
+    .logo-img{
+        margin-left: 203px;
+    }
+  
 }
