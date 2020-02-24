@@ -3,6 +3,9 @@
     height:630px;
 
 }
+body{
+    overflow-x: hidden;
+}
 .logo{
 
     /* border-radius: 50%; */
@@ -62,12 +65,23 @@ button:hover{
 }
 .our-product{
     width: 300px;
-    margin-left: 525px;
+    margin-left: 500px;
+   
 }
-.team img{
-    border-radius: 50%;
+.img-icon{
+    width: 200px;
     
 }
+.fa-icon{
+    margin-left: 55px;
+}
+.team img{
+    /* border-radius: 85%; */
+    border-radius: 50%;
+    margin-left: 40px;
+    
+}
+
 .gallery img{
     height: 150px;
     width: 150px ;
@@ -84,12 +98,24 @@ button:hover{
    margin-left: 140px;
 }
 .team h4,p{
-    color: white;
+    color:black;
+}
+.address-form {
+    margin-left: -10px;
+}
+.address p{
+    margin-left: 120px;
+}
+.icon{
+    margin-left: 140px;
+}
+.address img{
+    margin-left: 210px;
 }
 
 /* //media query */
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 500px){
     .menu{
         display: flex;
         flex-direction: column;
@@ -145,8 +171,10 @@ button:hover{
         text-align: center;
     }
     .gallery img{
-        height:200px;
+        height:250px;
         width:300px;
+       
+        margin-left: 10px;
     }
     .address div{
         display: flex;
@@ -175,3 +203,146 @@ button:hover{
     }
   
 }
+/* //kam */
+@media only screen and (min-width: 550px) and (max-width:600px){
+    .our-product{
+        margin-left: -0px;
+        margin-left:120px;
+    }
+    .product{
+        margin-left: 150px;
+    }
+    .fa-icon{
+        margin-left: 70px;
+        margin-top: 90px;
+    }
+    .sm-img{
+       margin-left: -100px;
+    }
+    .addalign {
+       
+       margin-left: 120px;
+      
+    }
+    .icon{
+        margin-left: 170px;
+    }
+    .address img{
+        margin-left: 230px;
+    }
+    form .input-field{
+        margin-left: 50px;
+    }
+    form textarea{
+        margin-left: 50px;
+      
+    }
+    form .m-button{
+        margin-left: 200px;
+    }
+    .gallery img{
+        margin-left: 250px;
+        height:200px;
+        width:250px;
+    }
+
+}
+@media only screen and (min-width: 640px) and (max-width:700px){
+    .our-product{
+        /* margin-left: -0px;
+        margin-left: 40px; */
+    }
+    .secondhead .second-head{
+        margin-left: 170px;
+       
+        
+    }
+    .product{
+        margin-left: 150px;
+
+    }
+    .fa-icon{
+        margin-left: 70px;
+        margin-top: 90px;
+    }
+    .sm-img{
+       margin-left: -100px;
+    }
+    .address p{
+      
+        margin-left: -100px;
+       
+    }
+    .icon{
+        margin-left: 100px;
+    }
+    .address img{
+        margin-left: 250px;
+    }
+    form .input-field{
+        margin-left: 50px;
+    }
+    form textarea{
+        margin-left: 50px;
+      
+    }
+    form .m-button{
+        margin-left: 200px;
+    }
+
+}
+
+
+
+
+    /* @media all and (max-width: 768px) and (min-width: 640px){ */
+@media only screen and (min-width: 640px) and (max-width:768px){
+    .search-bar{
+        width: 500px;
+        margin-right: 50px;
+    }
+    .hosting img{
+        height:150px;
+        width:200px;
+       
+    }
+    .our-product{
+        margin-left:-0px;
+        margin-left: 245px; 
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .gallery img{
+        height:200px;
+        width:300px;
+        margin-left: 250px;
+    }
+    .address p{
+        margin-left: 250px;
+    }
+    .icon{
+        margin-left: 300px;
+    }
+    .address img{
+        margin-left: 350px;
+    }
+    form .input-field{
+        margin-left: 150px;
+    }
+    form textarea{
+        margin-left: 150px;
+      
+    }
+    form .m-button{
+        margin-left: 300px;
+    }
+    .m-footer{
+        text-align: center;
+        margin-left: -0px;
+        margin-left:250px;
+    }
+}
+
+
+
